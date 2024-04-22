@@ -15,7 +15,11 @@ Además de lo anterior, se utilizarán 2 servidores adicionales, uno para BASE D
 # 2. Información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
 Arquitectura:
 
+![image](https://github.com/danipive/st0263-Reto3/assets/92877092/e0aef017-cea4-40e4-bc56-dde017cd785e)
+
+
 # 3. Descripción del ambiente de ejecución (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 Dominio utilizado:
+https://reto3.playlistingpro.store/
 
 # 4. Video
