@@ -1,6 +1,9 @@
 - Estudiante: Daniel Pineda Vélez dpinedav@eafit.edu.co
 - Estudiante: Andres leonardo Rojas alrojasp@eafit.edu.co
 
+## Profesor
+Edwin Nelson Montoya Munera emontoya@eafit.edu.co
+
 # 1.Breve descripción de la actividad:
 Desplegar un CMS wordpress, empleando la tecnología de contenedores, con su propio dominio y certificado SSL. El sitio lo llamará: reto3.sudominio.tld.
 
