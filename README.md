@@ -9,7 +9,11 @@ En este reto3 utilizará un nginx COMO BALANCEADOR DE CARGAS (LB) de la capa de 
 Además de lo anterior, se utilizarán 2 servidores adicionales, uno para BASE DE DATOS (DBServer) y otro para ARCHIVOS(FileServer). El DBServer podrá utilizar la BD en docker (recomendado) o nativa. Y el FileServer implementará un NFSServer.
 
 ## 1.1 Que aspectos cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
-
+- Se implementó un balanceador de cargas basado en nginx que recibe el tráfico web https de Internet con múltiples instancias de procesamiento.
+- Aplicación wordpress dockerizada monolítica en varios nodos que mejora la disponibilidad de esta.
+- Se tiene 2 instancias de procesamiento wordpress detrás del balanceador de cargas.
+- Se tiene 1 instancia de bases de datos mysql
+- Se tiene 1 instancia de archivos distribuidos en NFS.
 ## 1.2  Que aspectos NO cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
 
 # 2. Información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
