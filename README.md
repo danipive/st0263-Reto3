@@ -27,15 +27,28 @@ Arquitectura:
 
 # 3. Descripción del ambiente de ejecución (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 - Dominio utilizado: https://reto3.playlistingpro.store/
-- Load Balancer:
-- Wordpress1:
-- Wordpress2:
-- Base de datos:
-- NFS Server:
-- Bastion:
+- Load Balancer: 107.23.215.188 (ip publica)
+- Wordpress1: 10.0.0.135 (ip privada)
+- Wordpress2:  10.0.0.132 (ip privada)
+- Base de datos: 10.0.0.141 (ip privada)
+- NFS Server: 10.0.0.137 (ip privada)
+- Bastion:  44.211.136.38 (ip publica)
 
   ## Descripción y configuración del proyecto
   Para hacer correr el proyecto se tiene que realizar las siguientes configuraciones en las instancias de AWS
+
+```
+*Primero se hacen los mount en los 2 wordpress
+sudo mount 10.0.0.137:/var/nfs/wordpress /home/ubuntu/wordpress
+
+*Segundo usando bastion acceder a Database con su ssh y luego ponerla a correr
+sudo docker compose up
+
+*Tercerlo y final
+* Hacer sudo docker compose up a los 2 wordpress
+* Hacer sudo docker compose up al LoadBalancer
+
+```
   
   ### Instancia del Bastion
   
