@@ -26,7 +26,33 @@ Arquitectura:
 
 
 # 3. Descripción del ambiente de ejecución (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
-Dominio utilizado:
-https://reto3.playlistingpro.store/
+- Dominio utilizado: https://reto3.playlistingpro.store/
+- Load Balancer:
+- Wordpress1:
+- Wordpress2:
+- Base de datos:
+- NFS Server:
+- Bastion:
+
+  ## Descripción y configuración del proyecto
+  Para hacer correr el proyecto se tiene que realizar las siguientes configuraciones en las instancias de AWS
+  
+  ### Instancia del Bastion
+  
+  ### Instancia de Load Balancer
+- Del proyecto copiar los archivos docker-compose.yl y nginx.conf en la instancia del load balancer
+- Configurar ngnix.conf con esta información:
+
+  
+  ### Instancia de Wordpress
+  - Del proyecto copiar el archivo docker-compose.yl en la instancia del Wordpress
+  - Configurar docker-compose.yl con esta información: 
+  
+
+  ### Instancia de base de datos
+
+  ### Instancia de NFS Server
+
+  ### Configuración del Cliente NFS en Instancias de WordPress
 
 # 4. Video
