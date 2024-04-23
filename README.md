@@ -52,3 +52,4 @@ sudo docker compose up
   
 
 # 4. Video
+https://youtu.be/CSLc7dobgV4
